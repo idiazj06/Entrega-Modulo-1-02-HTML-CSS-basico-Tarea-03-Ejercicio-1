@@ -1,0 +1,200 @@
+* {
+    top: 0;
+    left: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: black;
+    color: whitesmoke;
+    width: 100vw;
+}
+
+p {
+    text-align: center;
+    line-height: 1.5;
+    width: 98%;
+}
+
+.contenedor {
+    width: 100vw;
+
+}
+
+/*header*/
+.navList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navItem {
+    margin: 20px;
+}
+
+a {
+    color: whitesmoke;
+    margin: 20px;
+}
+
+/*Contenido principal Abuelos*/
+#principal {
+    margin: 20px auto;
+}
+
+#principal #intrCont {
+    width: 90%;
+    margin: auto;
+}
+
+#intrCont .tituloCont {
+    text-align: center;
+}
+
+#intrCont .parrCont {
+    
+    width: 70%;
+    margin: auto;
+
+}
+
+/*Contenido principal Vida abuelos*/
+#vida {
+    width: 95vw;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#vida .tituloCont {
+    text-align: center;
+}
+
+
+
+#niñez {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    
+}
+
+#imagenesNiñez{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 90%;
+    justify-content: center;
+}
+
+#juventud #imagenesJuventud{
+    display: flex;
+    justify-content: center;
+}
+#juventud .imgVida {   
+    width: 100%;
+    max-width: 338px;    
+    
+}
+
+
+
+#imagenesNiñez .imgVida{
+    max-width: 300px;
+    margin: 0 5px;
+    
+}
+
+/*Matimonio*/
+
+#matimonio {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#matimonio #imagenesMatrimonio{
+    width: 70%;
+    margin: auto;
+}
+
+#imagenesMatrimonio .imgMatrimonio{
+    max-width: 600px;
+    max-height: 800px;
+}
+
+/*Familia*/
+
+#familia {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#familia #tituloFam {
+    text-align: center;
+}
+
+#familia .familia1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.familia1 .parrFamilia {
+    width: 60%;
+    margin-right: 20px;
+}
+
+.familia1 .imgFamilia {
+    width: 40%;
+}
+
+#familia .familia2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.familia2 .parrFamilia {
+    width: 60%;
+    margin-left: 20px;
+}
+
+.familia2 .imgFamilia {
+    width: 40%;
+}
+
+/*Momentos*/
+#momentos{
+    text-align: center;
+}
+#contMomentos {
+    width: 95vw;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/*Pie de pagina*/
+#piePagina {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#piePagina .copy{
+    text-align: center;
+}
